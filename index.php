@@ -18,15 +18,15 @@ include_once('./connect.php');
     <?php
     if (isset($_SESSION['tai_khoan'])) {
       echo "<a href='themmoi.php' type='button' class='btn btn-primary'>Thêm mới</a> | ";
-      echo "<a href='dangxuat.php' type='button' class='btn btn-primary'>Dang xuat</a>";
+      echo "<a href='dangxuat.php' type='button' class='btn btn-primary'>Đăng Xuất</a>";
     } else {
       echo "<a href='dangnhap.php' type='button' class='btn btn-primary'>Đăng nhập</a>";
     }
     ?>
     <hr>
     <form class='d-flex'>
-      <input style="width: 30%;" class="form-control me-2" name="s" type="search" placeholder="Tim kiem..." aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Tim Kiem</button>
+      <input style="width: 30%;" class="form-control me-2" name="s" type="search" placeholder="Tìm kiếm..." aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Tìm Kiếm</button>
     </form>
     <hr>
 
