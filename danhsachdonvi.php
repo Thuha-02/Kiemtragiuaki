@@ -11,8 +11,7 @@
   </head>
   <body>
     <div class="container">
-      <h2>DANH SÁCH CÁC ĐƠN VỊ</h2>
-      
+      <h2 >DANH SÁCH CÁC ĐƠN VỊ</h2>
     <table class="table table-striped">
     <thead>
     <tr>

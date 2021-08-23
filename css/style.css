@@ -5,3 +5,13 @@
     border: 1px solid #000;
     border-radius:20px;
 }
+.container{
+    padding: 15px;
+}
+.footer{
+    margin: 0%;
+    padding: 70px;
+}
+.col-md-4{
+    text-align: right;
+}
